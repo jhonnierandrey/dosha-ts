@@ -22,14 +22,28 @@ a:hover {
 }
 
 body {
-  background-image: linear-gradient(135deg, #F4D03F 0%, #16A085 100%);
+  background-image: linear-gradient(45deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+main section {
+  color: #FFFFFF;
 }
 
 .navbar, .ds-bg-dark {
   background-color: rgba(0, 0, 0, 0.502);
 }
+.navbar .ds-img-logo, .ds-bg-dark .ds-img-logo {
+  margin-right: 0.5rem;
+}
+.navbar .ds-img-logo:hover, .ds-bg-dark .ds-img-logo:hover {
+  transform: rotate(45deg);
+}
 .navbar p, .ds-bg-dark p {
   color: #FFFFFF;
+}
+
+#footer {
+  color: #000000;
 }
 
 .bd-placeholder-img {

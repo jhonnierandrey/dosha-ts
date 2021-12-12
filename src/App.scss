@@ -38,17 +38,30 @@ a {
 
 body {
   // background-size: cover;
-  background-image: linear-gradient(135deg, #F4D03F 0%, #16A085 100%);
+  // background-image: linear-gradient(135deg, #F4D03F 0%, #16A085 100%);
+  background-image: linear-gradient(45deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
   // background-image: url('./assets/img/ds-background.jpg');
   // background-repeat: no-repeat;
 }
 
-// .main {
+main {
 
-// }
+  section {
+    color: $white;
+  }
+
+}
 
 .navbar, .ds-bg-dark {
   background-color: $transparent-black;
+
+  .ds-img-logo {
+   margin-right: .5rem;
+
+   &:hover {
+     transform: rotate(45deg);
+   }
+  }
 
   p {
     color: $white;
@@ -64,6 +77,10 @@ body {
 
 //   }
 // }
+
+#footer {
+  color: $black;
+}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
