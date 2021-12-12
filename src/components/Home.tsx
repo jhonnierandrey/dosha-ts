@@ -7,8 +7,8 @@ function Home(){
                 <div className="row py-lg-5">
                     <div className="col-lg-6 col-md-8 mx-auto">
                     <h1 className="fw-light">¿Querés saber cuál es tu Dosha?</h1>
-                    <p className="lead text-muted">
-                        Descubre cuál de los tres ‘humores’ o ‘aires vitales’ podrían estar presentes en tu cuerpo con el siguiente test.
+                    <p className="lead">
+                        Descubre cuál de los tres "humores" o "aires vitales" podrían estar presentes en tu cuerpo con el siguiente test.
                     </p>
                     <p>
                         <a href="/" className="btn btn-outline-primary my-2 btn-lg">Iniciar test</a>

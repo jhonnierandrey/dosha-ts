@@ -1,6 +1,6 @@
 function Footer() {
     return(
-        <footer className="text-muted py-5">
+        <footer className="py-5" id="footer">
             <div className="container">
             <p className="float-end mb-1">
                 <a href="/">Subir</a>

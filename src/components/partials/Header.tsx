@@ -22,7 +22,7 @@ function Header(){
             <div className="navbar navbar-dark shadow-sm">
             <div className="container">
                 <a href="/" className="navbar-brand d-flex align-items-center">
-                    <img src="./logo192.png" alt="Logo" width="50px" height="50px" />
+                    <img src="./logo192.png" alt="Logo" width="50px" height="50px" className="ds-img-logo" />
                     <strong> Dosha Test</strong>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
